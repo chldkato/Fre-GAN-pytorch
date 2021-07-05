@@ -39,13 +39,13 @@ https://arxiv.org/abs/2106.02297
 
    재학습 시
    ```
-   python train.py -n name -p ./ckpt/name/ckpt-850000step.pt
+   python train.py -n name -p ./ckpt/name/ckpt-340000.pt
    ```
      * 불러올 모델 경로를 지정합니다
 
 6. **Inference**
    ```
-   python inference.py -p ./ckpt/name/ckpt-850000step.pt
+   python inference.py -p ./ckpt/name/ckpt-340000.pt
    ```
      * test 폴더에 wav 파일을 넣으면, 멜스펙트로그램으로 바꾼 후 fre-gan에 입력하고 output 폴더에 출력 wav가 생성됩니다
 
